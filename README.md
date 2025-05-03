@@ -6,7 +6,7 @@
 
 - [Tools Used](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#tools-used)
 
-- [Steps I took](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#steps-i-took)
+- [Steps I took](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/blob/main/README.md#steps-i-took)
 
   -  [Data Collection And Description](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#data-collection--description)
 
