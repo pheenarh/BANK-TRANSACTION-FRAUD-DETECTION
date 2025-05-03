@@ -8,7 +8,7 @@
 
 - [Steps I took](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#steps-i-took)
 
-  -  [Data Collection And Description](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#data-collection-and-description)
+  -  [Data Collection And Description](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#data-collection--description)
 
   -  [Data Cleaning And Preparation](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#data-cleaning-and-preparation)
 
