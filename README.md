@@ -1,5 +1,27 @@
 # Bank Transaction Fraud Detection
 ## Table Of Content
+- [Overview](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#overview)
+
+- [Problem Statement](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#problem-statement)
+
+- [Tools Used](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#tools-used)
+
+- [Steps I took](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#steps-i-took)
+
+  -  [Data Collection And Description](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#data-collection--description)
+
+  -  [Data Cleaning And Preparation](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#data-cleaning--preparation)
+
+  -  [Data Analysis](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#data-analysis)
+
+- [Visualization](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#visualization)
+
+- [Key Findings And Insights](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#key-findings--insights)
+
+- [Recommendations](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#recommendations)
+
+- [Conclusion](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#conclusion)
+
 ## Overview
 This project analyses banking transaction data to uncover transactional behaviour, exploring fraud detection and anomaly identification. The analysis covers transaction volumes, transaction type, channel usage and customer type.
 
@@ -57,26 +79,38 @@ I used Excel to standardized the transaction date, transaction amount and accoun
 - **Customer Occupation Risk Analysis**
     Students dominate the suspicious transaction count significantly with 148 suspicious transactions.
     Other Occupations like doctors and retired individuals follow but with much lower counts. Students appear to be more vulnerable or involved in fraudulent activities.
+  ![S transaction by occupation](https://github.com/user-attachments/assets/546289d3-6d2e-435e-bd1d-cf987ce98c18)
+
 
 - **Transaction Amount by Occupation**
     Transaction amounts are relatively high across occupations like student, doctor and engineer. High transaction amounts combined with suspicious activity in specific 
     groups could signal riskier profiles.
+  ![T amount by occupation](https://github.com/user-attachments/assets/8c9ac511-a1d1-423c-8ac6-d9eac89acbbe)
+
 
 - **Channel Performance and Risk**
     ATM channel accounts for most suspicious transactions. Online transactions have lower suspicious counts, implying either better controls or lower usage of the channel.
+  ![S transaction by channel](https://github.com/user-attachments/assets/198da6cc-3974-418c-ae81-d11294e5b168)
+
 
 - **Transaction Type Analysis**
     Debit transactions account for the majority of suspicious activities compared to credit transactions. This indicates that fraudulent activities are more common with 
     debit transactions.
+  ![S transaction by T type](https://github.com/user-attachments/assets/b8283eb1-1011-4b93-99e4-0e928e07011f)
+
 
 - **Suspicious Transaction Rate**
     Out of the 2,512 total transactions, about 256 are flagged as suspicious. This means approximately 10.19% of all transactions are suspicious. This is quite significant 
     and a more thorough investigation should be considered.
+  ![fraud KPI](https://github.com/user-attachments/assets/1d267b5d-7999-49ad-914e-4bec924d2d4f)
+
 
 - **Top Locations with Suspicious Transactions**
     San Diego, Austin and Detroit are the top cities with the highest number of suspicious transactions. These cities recorded between 10 to 12 suspicious transactions 
     each. 
     Concentration in specific urban regions suggest targeted fraud activities which needs to be looked into.
+  ![S transaction location](https://github.com/user-attachments/assets/65cae548-9052-43a5-85dc-525914489e5c)
+
 
 ## Recommendations
 - **Targeted Monitoring for High-Risk Locations**
