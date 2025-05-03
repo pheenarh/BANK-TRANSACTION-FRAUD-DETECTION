@@ -10,7 +10,7 @@ I noticed that the previous transaction date column had future dates compared to
 
 I used Excel to standardized the transaction date, transaction amount and account balance formats for easier analysis. I created 4 columns:  High transaction flag, Multiple logins attempt flag, Occupation Flag, Potential Anomaly.
 ## DATA ANALYSIS
-Using the IF function in excel:
+**Using the IF function in excel:**
 
 a. High Transaction Flag: I flagged transaction amounts that are over $1,000 as suspicious so as to be able to take a closer look at the patterns.
 
@@ -21,64 +21,65 @@ c. Occupation Flag: I flagged transaction based on customer’s occupation. For 
 d. Potential Anomaly: Based on the above criteria, I created a resulting column to flag potential fraud with the condition where the other three columns are suspicious.
 
 
-Using Measures in Power BI:
+**Using Measures in Power BI:**
 
-a. Total transactions: I calculated the total transactions using;
+a. **Total transactions:** I calculated the total transactions using;
 
-Total Transactions = COUNTX ('Bank Transactions Fraud Cleaned', 'Bank Transactions Fraud Cleaned'[Transaction ID])
+***Total Transactions = COUNTX ('Bank Transactions Fraud Cleaned', 'Bank Transactions Fraud Cleaned'[Transaction ID])***
 
-b. Suspicious Transaction Count: I calculated the suspicious transaction count using;
+b. **Suspicious Transaction Count:** I calculated the suspicious transaction count using;
 
-Suspicious Transaction Count = CALCULATE (COUNTROWS ('Bank Transactions Fraud Cleaned'), 'Bank Transactions Fraud Cleaned'[Potential Anomaly] = "Potential Fraud")
+***Suspicious Transaction Count = CALCULATE (COUNTROWS ('Bank Transactions Fraud Cleaned'), 'Bank Transactions Fraud Cleaned'[Potential Anomaly] = "Potential Fraud")***
 
-c. Transaction Amount by Occupation: I calculated the transaction amount by occupation using;
+c. **Transaction Amount by Occupation:** I calculated the transaction amount by occupation using;
 
-Transaction Amount by Occupation = SUM ('Bank Transactions Fraud Cleaned'[Transaction Amount])
+***Transaction Amount by Occupation = SUM ('Bank Transactions Fraud Cleaned'[Transaction Amount])***
 
-d. Suspicious Transaction Percent: I calculated the percentage of suspicious transactions to the total transactions using;
+d. **Suspicious Transaction Percent:** I calculated the percentage of suspicious transactions to the total transactions using;
 
-Suspicious Transaction Percent = CALCULATE ([Suspicious Transaction Count]/[Total Transactions]) * 1.0
+***Suspicious Transaction Percent = CALCULATE ([Suspicious Transaction Count]/[Total Transactions]) * 1.0***
+
 ## VISUALIZATION
 ![fraud](https://github.com/user-attachments/assets/926ef50f-b9e4-4a5a-8a0f-5abdd1d561d6)
 
 ## KEY FINDINGS & INSIGHTS
-1. Customer Occupation Risk Analysis
+1. **Customer Occupation Risk Analysis**
 Students dominate the suspicious transaction count significantly with 148 suspicious transactions.
 Other Occupations like doctors and retired individuals follow but with much lower counts. Students appear to be more vulnerable or involved in fraudulent activities.
 
-2. Transaction Amount by Occupation
+2. **Transaction Amount by Occupation**
 Transaction amounts are relatively high across occupations like student, doctor and engineer. High transaction amounts combined with suspicious activity in specific groups could signal riskier profiles.
 
-3. Channel Performance and Risk
+3. **Channel Performance and Risk**
 ATM channel accounts for most suspicious transactions. Online transactions have lower suspicious counts, implying either better controls or lower usage of the channel.
 
-4. Transaction Type Analysis
+4. **Transaction Type Analysis**
 Debit transactions account for the majority of suspicious activities compared to credit transactions. This indicates that fraudulent activities are more common with debit transactions.
 
-5. Suspicious Transaction Rate
+5. **Suspicious Transaction Rate**
 Out of the 2,512 total transactions, about 256 are flagged as suspicious. This means approximately 10.19% of all transactions are suspicious. This is quite significant and a more thorough investigation should be considered.
 
-6. Top Locations with Suspicious Transactions
+6. **Top Locations with Suspicious Transactions**
 San Diego, Austin and Detroit are the top cities with the highest number of suspicious transactions. These cities recorded between 10 to 12 suspicious transactions each. Concentration in specific urban regions suggest targeted fraud activities which needs to be looked into.
 
 ## RECOMMENDATIONS
-1. Targeted Monitoring for High-Risk Locations
+1. **Targeted Monitoring for High-Risk Locations**
 Increase monitoring and preventive controls in San Diego, Austin, Detroit, Los Angeles and other top suspicious locations. The implementation of a location-based fraud detection rules should be considered.
 
-2. Strengthen ATM Security
+2. **Strengthen ATM Security**
 Since ATM channel is the most exploited, enhance the security measures around this channel and a more strict authentication method should be put in place.
 
-3. Student-focused Awareness Campaigns
+3. **Student-focused Awareness Campaigns**
 Launch fraud awareness programs targeting students, educating them on how fraudsters operate and how to secure their accounts. Also educate them on the implication of money laundering and being involved in fraudulent activities.
 
-4. Analyse Debit Transactions more deeply
+4. **Analyse Debit Transactions more deeply**
 Since debit transactions show higher fraud rates, implement a stricter fraud checks for debit card usage and also conduct enhanced due diligence when a customer is making a suspicious withdrawal amount in the branch.
 Also explore transaction patterns like multiple small transactions or cross-region usage of debit cards.
 
-5. Dynamic Risk Scoring
+5. **Dynamic Risk Scoring**
 Implement a dynamic risk scoring model based on location, occupation, transaction type and amount to prioritize transaction reviews. This will help flag suspicious transactions based on real-time.
 
-6. Review Large Transactions in High-Risk Occupations
+6. **Review Large Transactions in High-Risk Occupations**
 Pay closer attention to high transaction amounts from students whether credit or debit and newly registered accounts to detect potential money laundering activities early.
 
 ## CONCLUSION
