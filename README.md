@@ -16,7 +16,7 @@
 
 - [Visualization](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#visualization)
 
-- [Key Findings And Insights](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#key-findinds-and-insights)
+- [Key Findings And Insights](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/blob/main/README.md#key-findings--insights)
 
 - [Recommendations](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#recommendations)
 
