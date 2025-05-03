@@ -72,70 +72,80 @@ I used Excel to standardized the transaction date, transaction amount and accoun
   ***Suspicious Transaction Percent = CALCULATE ([Suspicious Transaction Count]/[Total Transactions]) * 1.0***
 
 ## Visualization
+
 ![image](https://github.com/user-attachments/assets/1aaa280d-d795-44ab-ae42-66e0cc7b6ec8)
 
 
 ## Key Findings & Insights
-- **Customer Occupation Risk Analysis**
+- **Customer Occupation Risk Analysis:**
     Students dominate the suspicious transaction count significantly with 148 suspicious transactions.
-    Other Occupations like doctors and retired individuals follow but with much lower counts. Students appear to be more vulnerable or involved in fraudulent activities.
+    Other Occupations like doctors and retired individuals follow but with much lower counts. Students appear to be more 
+    vulnerable or involved in fraudulent activities.
+  
   ![S transaction by occupation](https://github.com/user-attachments/assets/546289d3-6d2e-435e-bd1d-cf987ce98c18)
 
 
-- **Transaction Amount by Occupation**
-    Transaction amounts are relatively high across occupations like student, doctor and engineer. High transaction amounts combined with suspicious activity in specific 
-    groups could signal riskier profiles.
+- **Transaction Amount by Occupation:**
+    Transaction amounts are relatively high across occupations like student, doctor and engineer. High transaction amounts 
+    combined with suspicious activity in specific groups could signal riskier profiles.
+  
   ![T amount by occupation](https://github.com/user-attachments/assets/8c9ac511-a1d1-423c-8ac6-d9eac89acbbe)
 
 
-- **Channel Performance and Risk**
-    ATM channel accounts for most suspicious transactions. Online transactions have lower suspicious counts, implying either better controls or lower usage of the channel.
+- **Channel Performance and Risk:**
+    ATM channel accounts for most suspicious transactions. Online transactions have lower suspicious counts, implying either 
+    better controls or lower usage of the channel.
+  
   ![S transaction by channel](https://github.com/user-attachments/assets/198da6cc-3974-418c-ae81-d11294e5b168)
 
 
-- **Transaction Type Analysis**
-    Debit transactions account for the majority of suspicious activities compared to credit transactions. This indicates that fraudulent activities are more common with 
-    debit transactions.
+- **Transaction Type Analysis:**
+    Debit transactions account for the majority of suspicious activities compared to credit transactions. This indicates 
+    that fraudulent activities are more common with debit transactions.
+  
   ![S transaction by T type](https://github.com/user-attachments/assets/b8283eb1-1011-4b93-99e4-0e928e07011f)
 
 
-- **Suspicious Transaction Rate**
-    Out of the 2,512 total transactions, about 256 are flagged as suspicious. This means approximately 10.19% of all transactions are suspicious. This is quite significant 
-    and a more thorough investigation should be considered.
+- **Suspicious Transaction Rate:**
+    Out of the 2,512 total transactions, about 256 are flagged as suspicious. This means approximately 10.19% of all 
+    transactions are suspicious. This is quite significant and a more thorough investigation should be considered.
+  
   ![fraud KPI](https://github.com/user-attachments/assets/1d267b5d-7999-49ad-914e-4bec924d2d4f)
 
 
-- **Top Locations with Suspicious Transactions**
-    San Diego, Austin and Detroit are the top cities with the highest number of suspicious transactions. These cities recorded between 10 to 12 suspicious transactions 
-    each. 
-    Concentration in specific urban regions suggest targeted fraud activities which needs to be looked into.
+- **Top Locations with Suspicious Transactions:**
+    San Diego, Austin and Detroit are the top cities with the highest number of suspicious transactions. These cities 
+    recorded between 10 to 12 suspicious transactions each. Concentration in specific urban regions suggest targeted fraud 
+    activities which needs to be looked into.
+  
   ![S transaction location](https://github.com/user-attachments/assets/65cae548-9052-43a5-85dc-525914489e5c)
 
 
 ## Recommendations
-- **Targeted Monitoring for High-Risk Locations**
-    Increase monitoring and preventive controls in San Diego, Austin, Detroit, Los Angeles and other top suspicious locations. The implementation of a location-based fraud 
-    detection rules should be considered.
+- **Targeted Monitoring for High-Risk Locations:**
+    Increase monitoring and preventive controls in San Diego, Austin, Detroit, Los Angeles and other top suspicious 
+    locations. The implementation of a location-based fraud detection rules should be considered.
 
-- **Strengthen ATM Security**
-    Since ATM channel is the most exploited, enhance the security measures around this channel and a more strict authentication method should be put in place.
+- **Strengthen ATM Security:**
+    Since ATM channel is the most exploited, enhance the security measures around this channel and a more strict 
+    authentication method should be put in place.
 
-- **Student-focused Awareness Campaigns**
-    Launch fraud awareness programs targeting students, educating them on how fraudsters operate and how to secure their accounts. Also educate them on the implication of 
-    money laundering and being involved in fraudulent activities.
+- **Student-focused Awareness Campaigns:**
+    Launch fraud awareness programs targeting students, educating them on how fraudsters operate and how to secure their 
+    accounts. Also educate them on the implication of money laundering and being involved in fraudulent activities.
 
-- **Analyse Debit Transactions more deeply**
-    Since debit transactions show higher fraud rates, implement a stricter fraud checks for debit card usage and also conduct enhanced due diligence when a customer is 
-    making a suspicious withdrawal amount in the branch.
-    Also explore transaction patterns like multiple small transactions or cross-region usage of debit cards.
+- **Analyse Debit Transactions more deeply:**
+    Since debit transactions show higher fraud rates, implement a stricter fraud checks for debit card usage and also 
+    conduct enhanced due diligence when a customer is making a suspicious withdrawal amount in the branch. Also explore 
+    transaction patterns like multiple small transactions or cross-region usage of debit cards.
 
-- **Dynamic Risk Scoring**
-    Implement a dynamic risk scoring model based on location, occupation, transaction type and amount to prioritize transaction reviews. This will help flag suspicious 
-    transactions based on real-time.
+- **Dynamic Risk Scoring:**
+    Implement a dynamic risk scoring model based on location, occupation, transaction type and amount to prioritize 
+    transaction reviews. This will help flag suspicious transactions based on real-time.
 
-- **Review Large Transactions in High-Risk Occupations**
-    Pay closer attention to high transaction amounts from students whether credit or debit and newly registered accounts to detect potential money laundering activities 
-    early.
+- **Review Large Transactions in High-Risk Occupations:**
+    Pay closer attention to high transaction amounts from students whether credit or debit and newly registered accounts to 
+    detect potential money laundering activities early.
 
 ## Conclusion
 This analysis provides a comprehensive overview of customer transaction patterns and highlights key areas of potential fraud risk. Out of 2,512 transactions, 256 (approximately 10.19% were identified as suspicious. A deeper analysis reveals that; 
