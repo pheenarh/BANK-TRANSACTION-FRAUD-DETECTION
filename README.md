@@ -1,5 +1,26 @@
 # Bank Transaction Fraud Detection
 ## Table Of Content
+- [Overview]
+
+- [Problem Statement]
+
+- [Tools Used]
+
+- [Steps I took]
+
+  -  [Data Collection And Description]
+  -  
+  -  [Data Cleaning And Preparation]
+
+  -  [Data Analysis]
+
+- [Visualization]
+
+- [Key Findings And Insights]
+- 
+- [Recommendations]
+  
+- [Conclusion]
 
 ## Overview
 This project analyses banking transaction data to uncover transactional behaviour, exploring fraud detection and anomaly identification. The analysis covers transaction volumes, transaction type, channel usage and customer type.
