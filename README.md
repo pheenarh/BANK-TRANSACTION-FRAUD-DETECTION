@@ -12,7 +12,7 @@
 
   -  [Data Cleaning And Preparation](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/blob/main/README.md#data-cleaning--preparation)
 
-  -  [Data Analysis](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#data-analysis)
+  -  [Data Analysis](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/blob/main/README.md#data-analysis)
 
 - [Visualization](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#visualization)
 
