@@ -84,41 +84,35 @@ I used Excel to standardized the transaction date, transaction amount and accoun
   ![S transaction by occupation](https://github.com/user-attachments/assets/c7d7e6ad-903f-4029-b53c-0fe82bf0a2fb)
 
 
-
 - **Transaction Amount by Occupation:**
     Transaction amounts are relatively high across occupations like student, doctor and engineer. High transaction amounts 
     combined with suspicious activity in specific groups could signal riskier profiles.
-  
-  ![T amount by occupation](https://github.com/user-attachments/assets/8c9ac511-a1d1-423c-8ac6-d9eac89acbbe)
+ ![T amount by occupation](https://github.com/user-attachments/assets/46a70aa6-5d29-45d4-aa90-3799eeaf5e99)
 
 
 - **Channel Performance and Risk:**
     ATM channel accounts for most suspicious transactions. Online transactions have lower suspicious counts, implying either 
     better controls or lower usage of the channel.
-  
-  ![S transaction by channel](https://github.com/user-attachments/assets/198da6cc-3974-418c-ae81-d11294e5b168)
+ ![S transaction by channel](https://github.com/user-attachments/assets/34495ca5-44bb-4aed-914f-01619f5507cf)
 
 
 - **Transaction Type Analysis:**
     Debit transactions account for the majority of suspicious activities compared to credit transactions. This indicates 
     that fraudulent activities are more common with debit transactions.
-  
-  ![S transaction by T type](https://github.com/user-attachments/assets/b8283eb1-1011-4b93-99e4-0e928e07011f)
+  ![S transaction by T type](https://github.com/user-attachments/assets/a6ff667c-0cdb-4234-83b0-f5ccf533fa97)
 
 
 - **Suspicious Transaction Rate:**
     Out of the 2,512 total transactions, about 256 are flagged as suspicious. This means approximately 10.19% of all 
     transactions are suspicious. This is quite significant and a more thorough investigation should be considered.
-  
-  ![fraud KPI](https://github.com/user-attachments/assets/1d267b5d-7999-49ad-914e-4bec924d2d4f)
+  ![fraud KPI](https://github.com/user-attachments/assets/332be156-3925-4ee2-9b0a-4c17cdd12a6f)
 
 
 - **Top Locations with Suspicious Transactions:**
     San Diego, Austin and Detroit are the top cities with the highest number of suspicious transactions. These cities 
     recorded between 10 to 12 suspicious transactions each. Concentration in specific urban regions suggest targeted fraud 
     activities which needs to be looked into.
-  
-  ![S transaction location](https://github.com/user-attachments/assets/65cae548-9052-43a5-85dc-525914489e5c)
+![S transaction location](https://github.com/user-attachments/assets/b1c8366e-c70f-439c-9cbb-723ff22e1b7a)
 
 
 ## Recommendations
