@@ -72,8 +72,8 @@ I used Excel to standardized the transaction date, transaction amount and accoun
   ***Suspicious Transaction Percent = CALCULATE ([Suspicious Transaction Count]/[Total Transactions]) * 1.0***
 
 ## Visualization
+![fraud](https://github.com/user-attachments/assets/a9d57387-07a8-4c3e-90b6-138417875fbc)
 
-![image](https://github.com/user-attachments/assets/1aaa280d-d795-44ab-ae42-66e0cc7b6ec8)
 
 
 ## Key Findings & Insights
@@ -81,8 +81,8 @@ I used Excel to standardized the transaction date, transaction amount and accoun
     Students dominate the suspicious transaction count significantly with 148 suspicious transactions.
     Other Occupations like doctors and retired individuals follow but with much lower counts. Students appear to be more 
     vulnerable or involved in fraudulent activities.
-  
-  ![S transaction by occupation](https://github.com/user-attachments/assets/546289d3-6d2e-435e-bd1d-cf987ce98c18)
+  ![S transaction by occupation](https://github.com/user-attachments/assets/c7d7e6ad-903f-4029-b53c-0fe82bf0a2fb)
+
 
 
 - **Transaction Amount by Occupation:**
