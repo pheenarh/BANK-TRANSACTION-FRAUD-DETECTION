@@ -2,25 +2,25 @@
 ## Table Of Content
 - [Overview](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/blob/main/README.md#overview)
 
-- [Problem Statement]
+- [Problem Statement](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#problem-statement)
 
-- [Tools Used]
+- [Tools Used](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#tools-used)
 
-- [Steps I took]
+- [Steps I took](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#steps-i-took)
 
-  -  [Data Collection And Description]
-  -  
-  -  [Data Cleaning And Preparation]
+  -  [Data Collection And Description](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#data-collection-and-description)
 
-  -  [Data Analysis]
+  -  [Data Cleaning And Preparation](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#data-cleaning-and-preparation)
 
-- [Visualization]
+  -  [Data Analysis](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#data-analysis)
 
-- [Key Findings And Insights]
-- 
-- [Recommendations]
-  
-- [Conclusion]
+- [Visualization](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#visualization)
+
+- [Key Findings And Insights](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#key-findinds-and-insights)
+
+- [Recommendations](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#recommendations)
+
+- [Conclusion](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#conclusion)
 
 ## Overview
 This project analyses banking transaction data to uncover transactional behaviour, exploring fraud detection and anomaly identification. The analysis covers transaction volumes, transaction type, channel usage and customer type.
