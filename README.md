@@ -39,6 +39,7 @@ d. Suspicious Transaction Percent: I calculated the percentage of suspicious tra
 
 Suspicious Transaction Percent = CALCULATE ([Suspicious Transaction Count]/[Total Transactions]) * 1.0
 ## VISUALIZATION
-![Dashboard](https://github.com/user-attachments/assets/ce08bba4-9e5f-43ce-9984-96b5a801be3e)
-"C:\Users\pheen\OneDrive\Pictures\fraud.jpg"
+
+
+
 
