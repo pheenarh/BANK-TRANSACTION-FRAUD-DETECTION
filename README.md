@@ -1,19 +1,25 @@
-# BANK-TRANSACTION-FRAUD-DETECTION
-## OVERVIEW
+# Bank Transaction Fraud Detection
+## Table Of Content
+## Overview
 This project analyses banking transaction data to uncover transactional behaviour, exploring fraud detection and anomaly identification. The analysis covers transaction volumes, transaction type, channel usage and customer type.
 
-## PROBLEM STATEMENT
+## Problem Statement
 The goal of this analysis is to explore fraud detection and identify transaction anomaly. Understand the transaction pattern based on customer occupation. This can help identify anomaly in transaction pattern and detect fraudulent transactions.
 
-## DATA COLLECTION AND DESCRIPTION
+## **Tools Used:**
+  - Excel: For Data cleaning and Preparation
+  - Power BI: Dashboard Creation for intuitive analysis and visualization
+
+## **Steps I Took:**
+## Data Collection & Description
 The dataset is a real-life dataset gotten from Kaggle (Bank Transaction Dataset for Fraud Detection). It contains 2,512 samples of transaction data, covering various transaction attributes, customer demographics, and usage patterns. The dataset contains columns for transaction ID, account ID, transaction type, transaction date, transaction amount, location, Device IP, IP address, merchant ID, channel, Customer age, customer occupation, transaction duration, login attempts, account balance.
 
-## DATA CLEANING AND PREPARATION
+## Data Cleaning & Preparation
 I noticed that the previous transaction date column had future dates compared to the transaction date, which is logically inconsistent. For example, a transaction on June 2023 showing a previous transaction date in 2024. This suggests either a data entry error or an issue with how the dataset was generated. I flagged it during cleaning and choose to remove that column as it was supposed to be used for time-gap based anomaly detection.
 
 I used Excel to standardized the transaction date, transaction amount and account balance formats for easier analysis. I created 4 columns:  High transaction flag, Multiple logins attempt flag, Occupation Flag, Potential Anomaly.
 
-## DATA ANALYSIS
+## Data Analysis
 **Using the IF function in excel:**
 
 - High Transaction Flag: I flagged transaction amounts that are over $1,000 as suspicious so as to be able to take a closer look at the patterns.
@@ -43,11 +49,11 @@ I used Excel to standardized the transaction date, transaction amount and accoun
 
   ***Suspicious Transaction Percent = CALCULATE ([Suspicious Transaction Count]/[Total Transactions]) * 1.0***
 
-## VISUALIZATION
+## Visualization
 ![image](https://github.com/user-attachments/assets/1aaa280d-d795-44ab-ae42-66e0cc7b6ec8)
 
 
-## KEY FINDINGS & INSIGHTS
+## Key Findings & Insights
 - **Customer Occupation Risk Analysis**
     Students dominate the suspicious transaction count significantly with 148 suspicious transactions.
     Other Occupations like doctors and retired individuals follow but with much lower counts. Students appear to be more vulnerable or involved in fraudulent activities.
@@ -72,7 +78,7 @@ I used Excel to standardized the transaction date, transaction amount and accoun
     each. 
     Concentration in specific urban regions suggest targeted fraud activities which needs to be looked into.
 
-## RECOMMENDATIONS
+## Recommendations
 - **Targeted Monitoring for High-Risk Locations**
     Increase monitoring and preventive controls in San Diego, Austin, Detroit, Los Angeles and other top suspicious locations. The implementation of a location-based fraud 
     detection rules should be considered.
@@ -97,7 +103,7 @@ I used Excel to standardized the transaction date, transaction amount and accoun
     Pay closer attention to high transaction amounts from students whether credit or debit and newly registered accounts to detect potential money laundering activities 
     early.
 
-## CONCLUSION
+## Conclusion
 This analysis provides a comprehensive overview of customer transaction patterns and highlights key areas of potential fraud risk. Out of 2,512 transactions, 256 (approximately 10.19% were identified as suspicious. A deeper analysis reveals that; 
 - Student account for the highest number of suspicious transactions by occupation.
 -	Atm channel is the most common medium for flagged transactions.
