@@ -2,7 +2,7 @@
 ## Table Of Content
 - [Overview](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/blob/main/README.md#overview)
 
-- [Problem Statement](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#problem-statement)
+- [Problem Statement](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION#problem-statement)
 
 - [Tools Used](https://github.com/pheenarh/BANK-TRANSACTION-FRAUD-DETECTION/edit/main/README.md#tools-used)
 
